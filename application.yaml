@@ -7,7 +7,7 @@ spec:
   source:
     repoURL: "https://github.com/hannamatheos/argocd"
     targetRevision: main
-    path: <path_to_manifest_directory> (depends on which folder it's in)
+    path: . (depends on which folder it's in)
   destination:
     server: https://kubernetes.default.svc
     namespace: hanna-ns
